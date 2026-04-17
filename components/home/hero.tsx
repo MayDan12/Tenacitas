@@ -37,7 +37,7 @@ export default function Hero() {
 
   return (
     <section id="waitlist" className="bg-secondary h-screen">
-      <div className="container mx-auto  px-4 sm:px-6 lg:px-20 py-12 sm:pt-35">
+      <div className="container mx-auto  px-4 sm:px-6 lg:px-18 py-12 sm:pt-35">
         <div className="flex flex-col items-center text-center gap-6">
           <motion.h1
             initial={shouldReduceMotion ? false : { opacity: 0, y: 18 }}
