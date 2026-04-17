@@ -7,7 +7,7 @@ export default function WhoIsItFor() {
   const shouldReduceMotion = useReducedMotion();
   return (
     <section className="bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-20 py-14 sm:py-20">
         <div className="text-center max-w-2xl mx-auto">
           <motion.h2
             initial={shouldReduceMotion ? false : { opacity: 0, y: 14 }}
@@ -28,9 +28,9 @@ export default function WhoIsItFor() {
             }}
             className="mt-3 text-sm sm:text-base text-muted-foreground"
           >
-            Employers closing vital gaps to accredited training providers shaping
-            priority skills and future focused professional, Tenacitas is where
-            the 2026 workforce is transformed.
+            Employers closing vital gaps to accredited training providers
+            shaping priority skills and future focused professional, Tenacitas
+            is where the 2026 workforce is transformed.
           </motion.p>
         </div>
 
