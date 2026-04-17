@@ -35,14 +35,16 @@ export default function WaitlistEmail({ name, date, time }: Props) {
               padding: "20px",
               display: "flex",
               justifyContent: "space-between",
+              alignItems: "center",
+              flexDirection: "column",
             }}
           >
             <div>
               <Img
                 src="https://tenacitas.uk/tenacitas-logo.png"
                 alt="Tenacitas Logo"
-                width={30}
-                height={30}
+                width={50}
+                height={50}
               />
             </div>
 
