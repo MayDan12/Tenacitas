@@ -18,8 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Tenacitas",
-  description:
-    "Whether you are building a team, delivering excellence, or starting/developing your career, Tenacitas is your partner in transformation.",
+  description: "Tenacitas is your partner in transformation.",
 };
 
 export default function RootLayout({
