@@ -55,6 +55,7 @@ export default function WhoIsItFor() {
               transition={{
                 duration: shouldReduceMotion ? 0 : 0.5,
                 delay: shouldReduceMotion ? 0 : idx * 0.06,
+                ease: "easeInOut",
               }}
               className="rounded-2xl border border-border bg-card shadow-sm overflow-hidden"
             >
@@ -102,6 +103,7 @@ export default function WhoIsItFor() {
                 transition={{
                   duration: shouldReduceMotion ? 0 : 0.5,
                   delay: shouldReduceMotion ? 0 : idx * 0.06,
+                  ease: "easeInOut",
                 }}
                 className="rounded-2xl border border-border bg-card shadow-sm overflow-hidden"
               >

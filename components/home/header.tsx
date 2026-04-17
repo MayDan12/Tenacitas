@@ -145,7 +145,7 @@ export function Header() {
                 <a href="#waitlist">Join Waitlist</a>
               </Button>
               {/* mobile menu toggle */}
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 className="md:hidden hover:bg-primary"
@@ -157,7 +157,7 @@ export function Header() {
                 ) : (
                   <Menu className="h-5 w-5" />
                 )}
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>

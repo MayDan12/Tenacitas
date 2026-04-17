@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import WaitlistEmail from "@/lib/emails/templates/waitlietemail";
 import { sendEmail } from "@/lib/emails/send";
-import { getResendClient } from "@/lib/resend";
 
 export const runtime = "nodejs";
 

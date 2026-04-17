@@ -42,8 +42,8 @@ export default function WaitlistEmail({ name, date, time }: Props) {
                   <Img
                     src="https://tenacitas.uk/tenacitas-logo.png"
                     alt="Tenacitas Logo"
-                    width={50}
-                    height={50}
+                    width={60}
+                    height={60}
                   />
                 </td>
 
@@ -57,7 +57,7 @@ export default function WaitlistEmail({ name, date, time }: Props) {
           </Section>
 
           {/* Content */}
-          <Section style={{ padding: "30px" }}>
+          <Section style={{ padding: "20px" }}>
             <Text
               style={{
                 fontSize: "22px",

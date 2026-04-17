@@ -1,6 +1,6 @@
 "use client";
 import { Card, CardContent } from "../ui/card";
-import { motion, useReducedMotion } from "framer-motion";
+import { easeInOut, motion, useReducedMotion } from "framer-motion";
 import { ChartNoAxesCombined } from "lucide-react";
 import UserBriefcase from "../icons/user-briefcase";
 import BusinessHouse from "../icons/business-house";
@@ -61,12 +61,13 @@ export default function OurSolution() {
               transition={{
                 duration: shouldReduceMotion ? 0 : 0.5,
                 delay: shouldReduceMotion ? 0 : idx * 0.06,
+                ease: easeInOut,
               }}
             >
-              <Card className="h-full">
-                <CardContent className="space-y-4">
-                  <div className="size-15 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
-                    <Icon className="size-12" color="#1F1F1F" />
+              <Card className="h-full transition-colors hover:bg-secondary">
+                <CardContent className="space-y-4 group">
+                  <div className="size-15 rounded-lg bg-primary/10 text-[#1F1F1F] flex items-center justify-center transition-colors group-hover/card:bg-primary group-hover/card:text-primary-foreground">
+                    <Icon width={45} height={45} />
                   </div>
                   <div>
                     <p className="font-semibold text-lg text-foreground">

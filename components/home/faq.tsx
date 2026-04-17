@@ -27,7 +27,7 @@ export default function Faq() {
         </div>
 
         <div className="mt-8 max-w-4xl mx-auto rounded-xl border border-border bg-card shadow-xs">
-          <Accordion type="single" collapsible className="px-6">
+          <Accordion type="single" collapsible className="px-6 my-6">
             <AccordionItem value="who">
               <AccordionTrigger>Who should join the waitlist?</AccordionTrigger>
               <AccordionContent>
