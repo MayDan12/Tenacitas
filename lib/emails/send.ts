@@ -1,5 +1,5 @@
 // lib/email/send.ts
-import { resend } from "../resend";
+import { getResendClient } from "../resend";
 
 type SendEmailProps = {
   to: string;
@@ -10,6 +10,7 @@ type SendEmailProps = {
 
 export async function sendEmail({ to, subject, react, html }: SendEmailProps) {
   const from = process.env.RESEND_FROM!;
+  const resend = getResendClient();
 
   if (react) {
     return resend.emails.send({
