@@ -66,10 +66,12 @@ export default function OurSolution() {
               <Card className="h-full">
                 <CardContent className="space-y-4">
                   <div className="size-15 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
-                    <Icon className="size-12" />
+                    <Icon className="size-12" color="#1F1F1F" />
                   </div>
                   <div>
-                    <p className="font-semibold text-foreground">{title}</p>
+                    <p className="font-semibold text-lg text-foreground">
+                      {title}
+                    </p>
                     <p className="mt-2 text-sm text-muted-foreground">{body}</p>
                   </div>
                 </CardContent>
