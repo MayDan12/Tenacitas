@@ -33,32 +33,27 @@ export default function WaitlistEmail({ name, date, time }: Props) {
             style={{
               backgroundColor: "#E8F0FF",
               padding: "20px",
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              flexDirection: "column",
             }}
           >
-            <div>
-              <Img
-                src="https://tenacitas.uk/tenacitas-logo.png"
-                alt="Tenacitas Logo"
-                width={50}
-                height={50}
-              />
-            </div>
+            <table width="100%" cellPadding="0" cellSpacing="0">
+              <tr>
+                {/* LEFT: Logo */}
+                <td align="left">
+                  <Img
+                    src="https://tenacitas.uk/tenacitas-logo.png"
+                    alt="Tenacitas Logo"
+                    width={50}
+                    height={50}
+                  />
+                </td>
 
-            <div
-              style={{
-                alignItems: "flex-end",
-                textAlign: "right",
-                fontSize: "14px",
-                color: "#333",
-              }}
-            >
-              <Text style={{ margin: 0 }}>{date}</Text>
-              <Text style={{ margin: 0 }}>{time}</Text>
-            </div>
+                {/* RIGHT: Date & Time */}
+                <td align="right" style={{ fontSize: "14px", color: "#333" }}>
+                  <Text style={{ margin: 0 }}>{date}</Text>
+                  <Text style={{ margin: 0 }}>{time}</Text>
+                </td>
+              </tr>
+            </table>
           </Section>
 
           {/* Content */}
