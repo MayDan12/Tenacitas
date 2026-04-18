@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-18 py-10">
         <div className="flex flex-col items-center gap-1 text-center">
           <p className="text-lg font-semibold">
-            Tenacitas: Workforce Transformation
+            Tenacitas Workforce Transformation
           </p>
           <p className="text-base opacity-80">
             © {new Date().getFullYear()} Tenacitas. All rights reserved.
