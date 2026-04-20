@@ -40,7 +40,7 @@ export default function RootLayout({
     >
       <body className={cn("min-h-svh overflow-x-hidden")}>
         <main>{children}</main>
-        <Toaster />
+        <Toaster position="top-right" />
       </body>
     </html>
   );
