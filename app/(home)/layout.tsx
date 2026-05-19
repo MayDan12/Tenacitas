@@ -8,9 +8,9 @@ export default function HomeLayout({
 }>) {
   return (
     <div className="min-h-svh flex flex-col">
-      {/* <Header /> */}
+      <Header />
       <main className="flex-1">{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
