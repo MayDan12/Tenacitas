@@ -19,6 +19,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Tenacitas",
   description: "Tenacitas is your partner in transformation.",
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
+  generator: "Tenacitas",
+  keywords: "Tenacitas, transformation, partner, help, support",
+  twitter: {
+    card: "summary",
+    site: "@tenacitas",
+    creator: "@tenacitas",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    title: "Tenacitas",
+    description: "Tenacitas is your partner in transformation.",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
